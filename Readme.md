@@ -5,16 +5,19 @@
 - Database: sqlite3 được tinh hợp sẵn trong Django
 - Framework: Django
 ## Cài đặt
-1. **Cài đặt framework Django** https://www.djangoproject.com/download/
-2. **Chỉnh sửa file `setting.py` trong thư mục `Office-Supplies/Office-Supplies/setting.py`**
+1. **Cài đặt môi trường Python** https://code.visualstudio.com/docs/python/environments
+2. **Cài đặt framework Django** https://www.djangoproject.com/download/
+3. **Chỉnh sửa file `setting.py` trong thư mục `Office-Supplies/Office-Supplies/setting.py` nếu đã đổi tên file database mặc định** 
     ```Python
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.sqlite3",
-            "NAME": BASE_DIR / "db.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3", # Sửa lại "db.sqlite3" thành tên database mới
         }
     }
     ```
+4. **Vào đường đường dẫn `<path>/Office-Supplies` chạy lệnh `python manage.py runserver`**
+5. **Nhập URL `http://127.0.0.1:8000/VanPhongPham/TrangChu` vào thanh địa chỉ tìm kiếm của browser**
 ## Tính năng
 ### Admin
 - Sản phẩm (Thêm, sửa, xoá)
