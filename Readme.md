@@ -18,6 +18,7 @@
     ```
 4. **Vào đường đường dẫn `<path>/Office-Supplies` chạy lệnh `python manage.py runserver`**
 5. **Nhập URL `http://127.0.0.1:8000/VanPhongPham/TrangChu` vào thanh địa chỉ tìm kiếm của browser**
+6. **Địa chỉ vào trang admin `http://127.0.0.1:8000/VanPhongPham/admin_page`**
 ## Tính năng
 ### Admin
 - Sản phẩm (Thêm, sửa, xoá)
